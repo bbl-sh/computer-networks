@@ -5,23 +5,19 @@ This repository provides a set of Python scripts demonstrating various aspects o
 ## Contents
 
 ### 1. **TCP Server-Client JSON Communication**
-   - **Files**: `tcp_json_server.py` & `tcp_json_client.py`
    - **Description**: These scripts demonstrate a TCP server and client exchanging data in JSON format. The client sends a JSON request for specific operations (e.g., squaring a number), and the server responds in JSON. This example is excellent for learning structured data exchange in network programming.
 
 ### 2. **TCP Date-Time Server**
-   - **Files**: `tcp_datetime_server.py` & `tcp_datetime_client.py`
    - **Description**: This example features a TCP server that sends the current date and time to the client. It's a straightforward implementation showing data transmission over TCP.
 
 ### 3. **Reliable Data Transfer (RDT) 3.0 Implementation**
-   - **Files**: `rdt_3_0_server.py` & `rdt_3_0_client.py`
    - **Description**: These scripts implement the RDT 3.0 protocol, which ensures reliable data transfer over an unreliable network layer. This example is critical for understanding how higher-level protocols like TCP manage reliable communication over the inherently unreliable IP layer.
 
 ### 4. **TCP Chat Client**
-   - **File**: `tcp_chat_client.py`
    - **Description**: A TCP client designed to send messages to an echo server and receive responses. This script demonstrates bi-directional communication and continuous data exchange in a networked application.
 
 ### 5. **DNS Resolver**
-   - simple code for getting the IP_address
+   - **Description**: A simple code for getting the IP_address
 
 ## Usage Instructions
 
